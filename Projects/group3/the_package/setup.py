@@ -24,6 +24,7 @@ LICENSE = 'MIT'
 setup(
     name='the_package',
     packages=find_packages(),
+	py_modules=['ols', 'logit'],
     version=VERSION,
     description=DESCRIPTION,
     long_description_content_type='text/markdown',
